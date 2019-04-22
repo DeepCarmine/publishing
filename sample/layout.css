@@ -1,0 +1,40 @@
+/* 여백 초기화 */ 
+body, div, dl, dd, dt, ul, li, ol, h1, h2, h3, h4, h5, h6, form, th, 
+input, legend, textarea, select, fieldset, p, button { margin: 0; padding: 0; } 
+
+/* 제목 스타일 초기화 */ 
+h1, h2, h3, h4, h5, h6 { font-size: 12px; font-weight: normal; } 
+
+/* 블릿 기호 초기화*/ 
+li, ol, ul { list-style: none; } 
+
+/* 링크 초기화 */ 
+a { color: #ccc; text-decoration: none; } 
+
+body { 
+    font-family: 'NanumSquareRound',sans-serif; 
+    padding: 20px;
+} 
+
+#wrap { height: 700px; }
+#header { height: 200px; line-height: 200px; background-color: #333; }
+#content { height: 400px; line-height: 400px; background-color: #444; }
+#footer { height: 100px; line-height: 100px; background-color: #555; } 
+
+/* container */ 
+.container { position: relative; width: 100%; margin:0 auto; height:100%; }
+
+/* header */ 
+.header { height:100%; }
+.head-left { float:left; width: 35%; height:100%; border:1px solid #000; box-sizing:border-box; }
+.head-center { float:left; width: 30%; height:100%; border:1px solid #000; box-sizing:border-box; text-align: center; }
+.head-right { float:left; width: 35%; height:100%; border:1px solid #000; box-sizing:border-box; text-align: right; }
+
+/* contents */ 
+.content { height: 100%; }
+.cont-left { float:left; width: 35%; height:100%; border:1px solid #000; box-sizing:border-box; text-align: center; }
+.cont-center { float:left; width: 30%; height:100%; border:1px solid #000; box-sizing:border-box; text-align: center; }
+.cont-right { float:left; width: 35%; height:100%; border:1px solid #000; box-sizing:border-box; text-align: center; }
+
+/* footer */
+.footer { height: 100%; text-align: center; }

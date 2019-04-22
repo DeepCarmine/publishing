@@ -1,0 +1,76 @@
+/* 여백 초기화 */ 
+body, div, dl, dd, dt, ul, li, ol, h1, h2, h3, h4, h5, h6, form, th, 
+input, legend, textarea, select, fieldset, p, button { margin: 0; padding: 0; } 
+
+/* 제목 스타일 초기화 */ 
+h1, h2, h3, h4, h5, h6 { font-size: 12px; font-weight: normal; } 
+
+/* 블릿 기호 초기화*/ 
+li, ol, ul { list-style: none; } 
+
+/* 링크 초기화 */ 
+a { color: #ccc; text-decoration: none; } 
+
+body { 
+    font-family: 'NanumSquareRound',sans-serif; 
+    padding: 20px;
+} 
+
+#wrap { height: 700px; }
+#header { height: 200px; }
+#content { height: 400px; }
+#footer { height: 100px; } 
+
+/* container */ 
+.container { position: relative; width: 100%; margin:0 auto; }
+
+/* header */ 
+.head-left { float:left; width: 33%; padding: 10px; }
+.head-left ul { overflow: hidden; }
+.head-left ul li { float: left; padding-right: 15px; }
+.head-center { float:left; width: 30%; text-align: center; padding-top: 15px; }
+.head-center h2 { font-size: 24px; font-weight: bold; }
+.head-center p { font-size: 24px; font-weight: bold; }
+.head-center p img { vertical-align: middle; margin: 10px 20px 0 20px; }
+.head-right { float: right; width: 33%; text-align: right; padding: 10px; }
+.head-right span { font-size: 20px; }
+.head-right span img { vertical-align: -50%; padding-right: 10px; }
+
+/* contents */ 
+.content { height: 100%; }
+.cont-left { position: relative; float:left; width: 35%; margin: 30px 0 30px 50px;  }
+.cont-left ul { position: absolute; right: 0; top: 0; width: 80%;  }
+.cont-left li { position: relative; width: 100%; height: 60px; line-height: 60px; font-size: 24px; font-weight: bold; 
+    border-left: 1px solid #ccc; border-right: 1px solid #ccc; box-sizing: border-box; }
+.cont-left li a { color: #505050; }    
+.cont-left li p { position: relative; margin: 0 8%; width: 84%; border-bottom: 1px dashed #ccc;  }
+.cont-left li:first-child { background-color: #0093d0; border: 0px; border-radius: 0px 15px 0 0; color: #fff; text-align: center; }
+.cont-left li:first-child:before { content:''; position: absolute; left: -61px; top: -30px; 
+    background: url(img/left_arrow.png); width: 61px; height: 119px; }
+.cont-left li:last-child { padding-left: 8%; border-bottom: 1px solid #ccc; border-radius: 0px 0 15px 15px; box-shadow: 0 8px 2px -2px #ccc; }
+.cont-left li .mr-icon { display: inline-block; position: absolute; right: 0; top: 12px;  background: url(img/left_mr_icon.png); width: 35px; height: 33px;  }
+.cont-left li:last-child .mr-icon { display: inline-block; position: absolute; right: 8%; top: 12px;  background: url(img/left_mr_icon.png); width: 35px; height: 33px;  }
+
+.cont-center { float:left; width: 20%; text-align: center; }
+
+.cont-right { position: relative; float:left; width: 37%; margin: 30px 50px 30px 0;  }
+.cont-right ul { position: absolute; left: 0; top: 0; width: 80%;  }
+.cont-right li { position: relative; width: 100%; height: 60px; line-height: 60px; font-size: 24px; font-weight: bold; 
+    border-left: 1px solid #ccc; border-right: 1px solid #ccc; box-sizing: border-box; }
+.cont-right li a { color: #505050; }    
+.cont-right li p { position: relative; margin: 0 8%; width: 84%; border-bottom: 1px dashed #ccc;  }
+.cont-right li:first-child { background-color: #00a88f; border: 0px; border-radius: 15px 0 0 0; color: #fff; text-align: center; }
+.cont-right li:first-child:after { content:''; position: absolute; right: -61px; top: -30px; 
+    background: url(img/right_arrow.png); width: 61px; height: 119px; }
+.cont-right li:last-child { padding-left: 8%; border-bottom: 1px solid #ccc; border-radius: 0px 0 15px 15px; box-shadow: 0 8px 2px -2px #ccc; }
+.cont-right li .mr-icon { display: inline-block; position: absolute; right: 0; top: 12px; background: url(img/right_mr_icon.png); width: 35px; height: 33px;  }
+.cont-right li:last-child .mr-icon { display: inline-block; position: absolute; right: 8%; top: 12px;  background: url(img/right_mr_icon.png); width: 35px; height: 33px;  }
+.cont-right { float:left; width: 35%; text-align: left; padding: 10px;  }
+.toilet { position: absolute; right: 60px; top: 200px; }
+
+/* footer */
+.footer { text-align: center; }
+.footer li { display: inline-block; width: 200px; height: 60px; line-height: 60px; font-size: 24px; font-weight: bold;
+    margin: 15px 30px; background-color: #00008C; border-radius: 30px; }
+.ci { position: absolute; padding: 10px; left: 0; bottom: 0; width: 76px; height: 48px; background: url(img/ci.png) no-repeat; }
+.logo { position: absolute; padding: 10px; right: 0; bottom: 0; width: 81px; height: 37px; background: url(img/logo_txt.png) no-repeat; }
