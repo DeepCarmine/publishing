@@ -1,0 +1,55 @@
+/* @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); */ 
+
+/* 여백 초기화 */ 
+body, div, dl, dd, dt, ul, li, ol, h1, h2, h3, h4, h5, h6, form, th, 
+input, legend, textarea, select, fieldset, p, button { margin: 0; padding: 0; } 
+
+/* 제목 스타일 초기화 */ 
+h1, h2, h3, h4, h5, h6 { font-size: 12px; font-weight: normal; } 
+
+/* 블릿 기호 초기화*/ 
+li, ol, ul { list-style: none; } 
+
+/* 링크 초기화 */ 
+a { color: #ccc; text-decoration: none; } 
+
+body { 
+    font-family: 'NanumSquareRound',sans-serif; 
+    padding: 20px;
+} 
+
+#wrap {  }
+#header { height: 150px; } 
+#contents {  background-color: rgb(156, 188, 236); } 
+#footer { height: 100px; background-color: #666; } 
+
+/* container */ 
+.container { position: relative; width: 1200px; margin:0 auto; }
+
+/* header */ 
+.header { position: relative; text-align: center; }
+.floor { position: absolute; left: 0; top: 0;}
+.floor ul { overflow: hidden; }
+.floor li { float: left; padding-right: 10px; }
+.title h2 { font-size: 24px; color: #333; }
+.title p { font-size: 24px; color: #333; }
+.title p img { vertical-align: middle; padding: 0 10px; }
+.weather { position: absolute; right: 0; top: 0; }
+.weather span { font-size: 24px; margin-bottom: 10px; }
+.weather span img { vertical-align: middle; padding-right: 5px; }
+
+/* contents */ 
+.contents { overflow: hidden; }
+.cont-left { float: left; width: 400px; }
+.cont-left li:first-child {  }
+.cont-left li {  }
+
+.cont-center { width: 400px; }
+.cont-center img {  }
+
+.cont-right { width: 400px; }
+.cont-right li:first-child {  }
+.cont-right li {  }
+
+
+/* footer */
