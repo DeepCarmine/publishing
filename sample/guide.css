@@ -1,0 +1,19 @@
+
+body, div, span { padding: 0; margin: 0; }
+ul, li { list-style: none; }
+
+#content { background-color: #888; }
+
+
+.container { width: 990px; margin:0 auto; }
+
+.cont { overflow: hidden; height: 500px; }
+.cont-left { float: left; width: 50%; text-align: center; }
+.cont-right { position: relative; float: left; width: 50%; text-align: center; }
+.cont-right > div { width: 50px; height: 50px; background-color: rgb(255, 197, 72); border: 3px solid rgb(184, 76, 4)  }
+.cont-right .icon::before { content:''; position: absolute; left: 0; top: 0px; width: 20px; height: 30px; background-color: #ddd; }
+.cont-right .icon { position: absolute; left: 0; top: -35px; text-align: left; width: 80px; height: 30px; line-height: 30px; padding-left: 23px; }
+.cont-right .seat-8-1 { opacity: 0; position: absolute; top: 300px; left: 200px; }
+.cont-right .seat-8-1.show { opacity: 1; }
+.cont-right .seat-8-2 { opacity: 0; position: absolute; top: 400px; left: 300px; }
+.cont-right .seat-8-2.show { opacity: 1; }
